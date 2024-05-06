@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+    <title>calculadora</title>
+</head>
+<body>
+    <div class="calculadora" id="calculadora">
+        <input type="text" id="display" disabled>
+        <button onclick="apagar()">⌫</button>
+        <button></button>
+        <button onclick="limpar()">CE</button>
+        <button onclick="inserir('*')">*</button>
+        <button onclick="inserir('1')" id="n">1</button>
+        <button onclick="inserir('2')" id="n">2</button>
+        <button onclick="numero('3')" id="n">3</button>
+        <button onclick="inserir('/')">/</button>
+        <button onclick="inserir('4')" id="n">4</button>
+        <button onclick="inserir('5')" id="n">5</button>
+        <button onclick="inserir('6')" id="n">6</button>
+        <button onclick="inserir('+')">+</button>
+        <button onclick="inserir('7')" id="n">7</button>
+        <button onclick="inserir('8')" id="n">8</button>
+        <button onclick="inserir('9')" id="n">9</button>
+        <button onclick="inserir('-')">-</button>
+        <button id="lp"></button>
+        <button onclick="inserir('0')" id="n">0</button>
+        <button id="lp"></button>
+        <button onclick="calcular()">=</button>
+    </div>
+</body>
+</html>
